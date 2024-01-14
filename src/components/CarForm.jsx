@@ -47,6 +47,7 @@ export default function CarForm() {
                             className="input is-expended"
                             value={name}
                             onChange={handleNameChange}
+                            required
                         />
                     </div>
                     <div className="field">
@@ -56,6 +57,7 @@ export default function CarForm() {
                             className="input is-expended"
                             value={cost || ""}
                             onChange={handleCostChange}
+                            required
                         />
                     </div>
                     <div className="field">
